@@ -1,0 +1,243 @@
+/* stylelint-disable property-no-vendor-prefix */
+
+/*
+ * Globals
+ */
+
+/* Links */
+*{
+  font-family: 微软雅黑,Microsoft YaHei;
+}
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255, 255, 255, .75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+  width: 800px;
+  margin: auto;
+  margin-top: 30px;
+}
+.cover .list-header{
+  margin-bottom: 20px;
+}
+.cover .list-header .list-title{
+
+}
+.cover .list-header .list-media img{
+  width: 160px;
+  height: 60px;
+}
+.cover .block-info .info-media img{
+  /* width: 300px;
+  height: 300px; */
+}
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  margin-top: 30px;
+  color: #999; /* IE8 proofing */
+  color: rgba(255, 255, 255, .5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    /* position: fixed; */
+    top: 0;
+  }
+  .mastfoot {
+    /* position: fixed; */
+    bottom: 0;
+  }
+  .site-wrapper-inner {
+    vertical-align: middle; /* Start the vertical centering */
+  }
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 1200px;
+  }
+}
+.header{
+  width: 100%;
+  height: 300px;
+}
+.cover .swiper1 {
+  width: 100%;
+  height: 100px;
+}
+.cover .swiper-page-split-wrapper{
+  display: flex;
+  height: 20px;
+  align-items: center;
+}
+.cover .swiper-page-split{
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  height: 5px;
+  width: 100%;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-pagination-bullet {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  opacity: 0.4;
+  border-radius: 0;
+  background-size: cover;
+  /* color:#000; */
+  /* opacity: 1; */
+  /* background: rgba(0,0,0,0.2); */
+}
+
+.swiper-pagination-bullet-active {
+  /* color:#fff; */
+  /* background: #007aff; */
+  opacity: 1;
+
+}
