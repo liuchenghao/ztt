@@ -95,14 +95,13 @@ body {
   font-size: 16px;
   font-weight: 700;
   color: #333333;
-  border-bottom: 2px solid transparent;
   padding: 0;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
-  background-color: transparent;
+  /* background-color: transparent;
   border-bottom-color: #a9a9a9;
-  border-bottom-color: rgba(255, 255, 255, .25);
+  border-bottom-color: rgba(255, 255, 255, .25); */
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
@@ -320,6 +319,9 @@ body {
 }
 .mastfoot .mastfoot-header p{
   color: #ffffff;
+}
+.mastfoot .mastfoot-footer-wrapper{
+  background: #f0f0f0;
 }
 .mastfoot .mastfoot-footer{
   margin: auto;

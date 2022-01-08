@@ -1,6 +1,10 @@
+.cover-container{
+  background: #f2faf6;
+
+}
 .cover .block1 {
   margin-top: 20px;
-  background: #ffffff;
+  background: #f2faf6;
   min-height: 600px;
 }
 .page-content{
@@ -39,10 +43,49 @@
   color: #00a546;
 }
 .page-breadcrumb .breadcrumb{
-  background: #ffffff;
+  background: #f2faf6;
   padding-left: 0;
 }
 .page-breadcrumb .breadcrumb a{
   color: #00a546;
 }
+.page-content-wrapper{
+  background: #ffffff;
+  padding-bottom: 60px;
 
+}
+.page-content .page-footer{
+  max-width: 1200px;
+  margin: 30px auto 20px;
+  text-align: center;
+}
+.page-content .page-footer .page-title{
+  font-size: 20px;
+  color: #00a546;
+}
+.page-content .page-footer .page-title-split{
+  border-bottom: 2px solid #00a546;
+  width: 60px;
+  margin: 5px auto 30px;
+}
+.page-content .page-footer .thumbnail{
+  text-align: left;
+  padding-bottom: 30px;
+  border: 1px solid #00a546;
+}
+.page-content .page-footer .thumbnail .caption{
+  padding: 9px 20px;
+}
+.page-content .page-footer .thumbnail h3{
+  border-bottom: 1px solid #00a546;
+  margin-bottom: 20px;
+}
+.page-content .page-footer .thumbnail .more{
+  text-align: right;
+  color: #00a546;
+  margin-top: 30px;
+  padding: 0 20px;
+}
+.mastfoot{
+  margin: 0;
+}
