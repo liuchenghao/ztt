@@ -116,7 +116,6 @@ body {
 }
 .cover .block1 .list-content{
   padding: 40px 15px 30px;
-
   background: #f5f5f5;
 }
 .list-content .list-header{
@@ -329,4 +328,12 @@ body {
   padding: 40px 0 30px;
 }
 .mastfoot .mastfoot-footer p{
+}
+
+.mastfoot .mastfoot-header i{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  vertical-align: bottom;
+  margin: 0 15px;
 }

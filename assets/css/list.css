@@ -1,0 +1,51 @@
+.cover .block1 {
+  background: #ffffff;
+  min-height: 600px;
+
+}
+.cover .block1 .list-content{
+  padding: 40px 15px 30px;
+  background: #ffffff;
+}
+.cover .list-header .list-title{
+  text-align: center;
+}
+.cover .list-header .list-title i{
+  width: 55px;
+  height: 40px;  
+  margin: auto;
+  display: inline-block;
+}
+.list-group .list-group-item{
+  background: #ffffff;
+  color: #00a546;
+}
+.page-content{
+  padding: 0 50px;
+}
+.page-content .page-header{
+  position: relative;
+  border-bottom: 1px solid #cccccc;
+}
+.page-content .page-header .page-title{
+  font-size: 16px;
+  color: #00a546;
+}
+.page-content .page-header .page-title-split{
+  position: absolute;
+  border-bottom: 2px solid #444441;
+  width: 145px;
+  bottom: -1px;
+}
+.page-content .page-group{
+  padding: 0;
+  border: 0;
+
+}
+.page-content .page-group .list-group-item{
+  border: 0;
+}
+.page-content .page-group .list-group-item i{
+  color: #00a546;
+}
+
