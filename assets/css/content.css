@@ -1,0 +1,48 @@
+.cover .block1 {
+  margin-top: 20px;
+  background: #ffffff;
+  min-height: 600px;
+}
+.page-content{
+  /* padding: 0 50px; */
+}
+.page-content .page-header{
+  margin: 30px 0 20px;
+  position: relative;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 30px;
+}
+.page-content .page-header .page-title{
+  font-size: 20px;
+  color: #00a546;
+}
+.page-content .page-header .page-sub-title{
+  margin-top: 15px;
+  font-size: 12px;
+  color: #00a546;
+}
+.page-content .page-header .page-title-split{
+  position: absolute;
+  border-bottom: 2px solid #444441;
+  width: 145px;
+  bottom: -1px;
+}
+.page-content .page-group{
+  padding: 0;
+  border: 0;
+
+}
+.page-content .page-group .list-group-item{
+  border: 0;
+}
+.page-content .page-group .list-group-item i{
+  color: #00a546;
+}
+.page-breadcrumb .breadcrumb{
+  background: #ffffff;
+  padding-left: 0;
+}
+.page-breadcrumb .breadcrumb a{
+  color: #00a546;
+}
+
