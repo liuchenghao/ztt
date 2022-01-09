@@ -70,15 +70,10 @@
 }
 .page-content .page-footer .thumbnail{
   text-align: left;
-  padding-bottom: 30px;
-  border: 1px solid #00a546;
 }
 .page-content .page-footer .thumbnail .caption{
-  padding: 9px 20px;
 }
 .page-content .page-footer .thumbnail h3{
-  height: 50px;
-  border-bottom: 1px solid #00a546;
   margin-bottom: 20px;
 }
 .page-content .page-footer .thumbnail .more{
@@ -89,4 +84,12 @@
 }
 .mastfoot{
   margin: 0;
+}
+.page-content .page-footer .thumbnail.active{
+  border: 1px solid #00a546;
+  color: #00a546;
+}
+.page-content .page-footer .thumbnail.active .caption,
+.page-content .page-footer .thumbnail.active .caption p{
+  color: #00a546;
 }
